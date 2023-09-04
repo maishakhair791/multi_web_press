@@ -1,6 +1,6 @@
 .mother_div{
     margin: auto;
-    width:60%;
+    width:70%;
     background-color: #556FE8;
     display:flex;
     flex-wrap: wrap;
@@ -8,6 +8,7 @@
     padding-left: 2.25%;
     padding-right: 2.25%;
     justify-content: space-between;
+   
 
 }
 .heading{
@@ -17,17 +18,32 @@
 span{
     color:#182B53;
 }
+.container_of_click{
+
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .click_items{
-    text-align: justify;
+    /*justify-content: center;
+    align-items: center;*/
+    display:grid;
+    place-content: center;
     color:#d6dbf1;
-    font-size: x-small;
+    font-size: small;
     font-style: bold;
     
 
 }
 .button{
+    height: 45px;
+    width: 130px;
     background-color: #273B92;
-    color: ;
-
+    color: #FDFDF9;
+    border: none;
+    border-radius: 5px; 
+    font-size: medium;
 
 }
