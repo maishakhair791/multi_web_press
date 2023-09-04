@@ -58,3 +58,11 @@ span{
 }
 .hov:hover{
     color: #273B92;
+}
+.hov_btn{
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.hov_btn:hover{
+    background-color: #c1c6df;
+}
