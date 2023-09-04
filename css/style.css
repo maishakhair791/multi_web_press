@@ -1,12 +1,12 @@
 .mother_div{
     margin: auto;
-    width:70%;
+    width:67%;
     background-color: #556FE8;
     display:flex;
     flex-wrap: wrap;
     font-family: sans-serif;
-    padding-left: 2.25%;
-    padding-right: 2.25%;
+    padding-left: 2%;
+    padding-right: 2%;
     justify-content: space-between;
    
 
@@ -18,24 +18,29 @@
 span{
     color:#182B53;
 }
-.container_of_click{
+.container_click_button{
 
-    width:60%;
+    width:65%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .click_items{
     /*justify-content: center;
     align-items: center;*/
-    display:grid;
-    place-content: center;
+   
     color:#d6dbf1;
     font-size: small;
     font-style: bold;
     
+}
 
+
+
+.grid{
+    display:grid;
+    place-content: center;
 }
 .button{
     height: 45px;
@@ -47,3 +52,9 @@ span{
     font-size: medium;
 
 }
+.hov{
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.hov:hover{
+    color: #273B92;
